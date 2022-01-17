@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    string = '11'
+    string = input()
     rez = [None,0]
     rezstring = ''
     for i in range(len(string)):
