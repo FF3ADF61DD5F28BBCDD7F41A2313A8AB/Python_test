@@ -6,5 +6,5 @@ m_col = ws.max_column
 for i in range(1, m_col + 1):
     for n in range(1, m_row + 1):
         cell_obj = ws.cell(row = n, column = i)
-        print(cell_obj.value, sep="\t")
+        print(cell_obj.value, end=" ")
     print('\n')
